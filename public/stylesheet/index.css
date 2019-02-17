@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade|Anton|Roboto');
+
+body {
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.nav-img {
+  height: 40px;
+  width: 40px;
+
+}
+
+.title {
+  font-family: 'Bungee Shade', cursive;
+
+}
+
+.subtitle {
+  font-family: 'Anton', sans-serif;
+}
