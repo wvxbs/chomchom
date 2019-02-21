@@ -19,3 +19,28 @@ body {
 .subtitle {
   font-family: 'Anton', sans-serif;
 }
+
+.hero {
+  border-radius: 10px;
+
+}
+
+#main-hero {
+  text-align: center;
+  animation-name: load;
+  animation-duration: 500ms;
+  animation-delay: 30ms;
+
+}
+
+#wrapper:last-child {
+  animation-name: load;
+  animation-duration: 500ms;
+
+}
+
+@keyframes load {
+  0% {
+    transform: translateY(50%);
+  }
+}
