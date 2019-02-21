@@ -28,15 +28,25 @@ body {
 #main-hero {
   text-align: center;
   animation-name: load;
-  animation-duration: 500ms;
-  animation-delay: 30ms;
+  animation-duration: 600ms;
+  animation-delay: 50ms;
 
 }
 
 #wrapper:last-child {
   animation-name: load;
-  animation-duration: 500ms;
+  animation-duration: 600ms;
 
+}
+
+.box {
+  box-shadow: none;
+  transition: 300ms ease
+}
+
+.box:hover, .box:focus {
+  background: rgb(250, 250, 250);
+  box-shadow: 0 0 5px rgb(250, 250, 250);
 }
 
 @keyframes load {
@@ -44,3 +54,13 @@ body {
     transform: translateY(50%);
   }
 }
+
+.health-active {
+  color: red
+}
+
+.happyness-active {
+  color: pink
+} 
+
+
