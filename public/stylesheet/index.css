@@ -29,7 +29,7 @@ body {
 #main-hero {
   text-align: center;
   animation-name: load;
-  animation-duration: 600ms;
+  animation-duration: 650ms;
   animation-delay: 50ms;
 
 }
@@ -62,7 +62,7 @@ body {
 }
 
 .happyness-active {
-  color: pink
+  color: rgb(132, 202, 28)
 } 
 
 
