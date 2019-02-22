@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Bungee+Shade|Anton|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade');
 
 body {
-  font-family: 'Roboto', sans-serif;
   user-select: none;
 
 }
@@ -10,10 +9,6 @@ body {
   height: 40px;
   width: 40px;
 
-}
-
-.subtitle {
-  font-family: 'Anton', sans-serif;
 }
 
 .hero {
