@@ -26,12 +26,24 @@ body {
 
 }
 
-#main-hero {
+#title-hero {
   text-align: center;
   animation-name: load;
   animation-duration: 650ms;
   animation-delay: 20ms;
 
+}
+
+#index-hero {
+  text-align: center;
+  animation-name: Index;
+  animation-duration: 650ms;
+}
+
+.form-wrapper {
+  animation-name: Index;
+  animation-duration: 650ms;
+  animation-delay: 70ms
 }
 
 #awrapper {
@@ -103,7 +115,12 @@ body {
   animation-delay: 90ms
 }
 
-
+@keyframes Index {
+  0% {
+    opacity: 0.0;
+    transform: translateY(20px)
+  }
+}
 
 @keyframes load {
   0% {
