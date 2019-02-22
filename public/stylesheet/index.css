@@ -2,13 +2,15 @@
 
 body {
   user-select: none;
-
+  animation-name: Loaded;
+  animation-duration: 200ms
 }
 
-.nav-img {
-  height: 40px;
-  width: 40px;
-
+.form-wrapper {
+  max-width: 300px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 10px
 }
 
 .title {
@@ -29,8 +31,12 @@ body {
   animation-name: load;
   animation-duration: 650ms;
   animation-delay: 20ms;
-  background: rgba(255, 255, 255, 0)
 
+}
+
+#awrapper {
+  animation: Loaded;
+  animation-duration: 1s
 }
 
 .hero-body .title {
@@ -39,7 +45,8 @@ body {
 
 .box {
   box-shadow: none;
-  transition: 300ms ease
+  transition: 300ms ease;
+  text-align: center
 }
 
 .box:hover, .box:focus {
@@ -74,25 +81,25 @@ body {
 
 #name-box {
   animation-name: load;
-  animation-duration: 600ms;
+  animation-duration: 500ms;
   animation-delay: 0s 
 }
 
 #health-box {
   animation-name: load;
-  animation-duration: 600ms;
+  animation-duration: 500ms;
   animation-delay: 30ms
 }
 
 #happyness-box {
   animation-name: load;
-  animation-duration: 600ms;
+  animation-duration: 500ms;
   animation-delay: 60ms
 }
 
 #hunger-box {
   animation-name: load;
-  animation-duration: 600ms;
+  animation-duration: 500ms;
   animation-delay: 90ms
 }
 
@@ -100,6 +107,12 @@ body {
 
 @keyframes load {
   0% {
+    opacity: 0.0;
     transform: translateY(50%);
   }
+}
+
+@keyframes Loaded {
+  0% {opacity: 0.0;}
+
 }
