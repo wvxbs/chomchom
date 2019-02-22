@@ -29,14 +29,8 @@ body {
 
 }
 
-.hero-body title {
+.hero-body .title {
   font-family: 'Bungee Shade'
-}
-
-#wrapper:last-child {
-  animation-name: load;
-  animation-duration: 600ms;
-
 }
 
 .box {
@@ -48,12 +42,6 @@ body {
   background: rgba(0, 0, 0, 0.027);
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.123);
   transform: scale(1.3);
-}
-
-@keyframes load {
-  0% {
-    transform: translateY(50%);
-  }
 }
 
 .health-active {
@@ -70,5 +58,37 @@ body {
     background: rgba(0, 0, 0, 0.027);
     box-shadow: 0 2px 20px white;
     transform: scale(1);
+  }
+}
+
+#name-box {
+  animation-name: load;
+  animation-duration: 600ms;
+  animation-delay: 0s 
+}
+
+#health-box {
+  animation-name: load;
+  animation-duration: 600ms;
+  animation-delay: 30ms
+}
+
+#happyness-box {
+  animation-name: load;
+  animation-duration: 600ms;
+  animation-delay: 60ms
+}
+
+#hunger-box {
+  animation-name: load;
+  animation-duration: 600ms;
+  animation-delay: 90ms
+}
+
+
+
+@keyframes load {
+  0% {
+    transform: translateY(50%);
   }
 }
