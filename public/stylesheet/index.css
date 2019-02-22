@@ -2,6 +2,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  user-select: none;
 
 }
 
@@ -65,3 +66,10 @@ body {
 } 
 
 
+@media screen and (max-width: 768px) {
+  .box:hover, .box:focus {
+    background: rgba(0, 0, 0, 0.027);
+    box-shadow: 0 2px 20px white;
+    transform: scale(1);
+  }
+}
