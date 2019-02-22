@@ -45,8 +45,9 @@ body {
 }
 
 .box:hover, .box:focus {
-  background: rgb(250, 250, 250);
-  box-shadow: 0 0 5px rgb(250, 250, 250);
+  background: rgba(0, 0, 0, 0.027);
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.123);
+  transform: scale(1.3);
 }
 
 @keyframes load {
