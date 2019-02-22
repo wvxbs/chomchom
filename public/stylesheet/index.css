@@ -27,26 +27,26 @@ body {
 
 #title-hero {
   text-align: center;
-  animation-name: load;
+  animation-name: Load;
   animation-duration: 650ms;
-  animation-delay: 20ms;
+  animation-delay: 700ms;
 
 }
 
 #index-hero {
   text-align: center;
-  animation-name: Index;
+  animation-name: Load;
   animation-duration: 300ms;
 }
 
 .form-wrapper {
-  animation-name: Index;
+  animation-name: Load;
   animation-duration: 300ms;
-  animation-delay:
+  animation-delay: 3ms;
 }
 
 #awrapper {
-  animation: Index;
+  animation-name: Index;
   animation-duration: 600ms
 }
 
@@ -109,25 +109,25 @@ body {
 }
 
 #name-box {
-  animation-name: load;
+  animation-name: Load;
   animation-duration: 500ms;
   animation-delay: 0s 
 }
 
 #health-box {
-  animation-name: load;
+  animation-name: Load;
   animation-duration: 500ms;
   animation-delay: 30ms
 }
 
 #happyness-box {
-  animation-name: load;
+  animation-name: Load;
   animation-duration: 500ms;
   animation-delay: 60ms
 }
 
 #hunger-box {
-  animation-name: load;
+  animation-name: Load;
   animation-duration: 500ms;
   animation-delay: 90ms
 }
@@ -145,13 +145,13 @@ body {
   }
 }
 
-@keyframes load {
+@keyframes Load {
   0% {
     opacity: 0.0;
     transform: translateY(50%);
   }
 
   10% {
-    opacity: 0.0
+    opacity: 0.0;
   }
 }
