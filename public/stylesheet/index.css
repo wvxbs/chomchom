@@ -85,12 +85,18 @@ body {
 
 @media screen and (max-width: 768px) {
   .ibox:hover, .ibox:focus {
-    background: rgba(0, 0, 0, 0.027);
+    background: white;
     box-shadow: 0 2px 20px white;
     transform: scale(1);
   }
   .box {
     text-align: left;
+
+  }
+
+  #awrapper .box {
+    box-shadow:  0 3px 3px rgba(0, 0, 0, 0.151);
+    border-radius: 0px
   }
 }
 
