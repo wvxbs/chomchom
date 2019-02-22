@@ -12,11 +12,6 @@ body {
 
 }
 
-.title {
-  font-family: 'Bungee Shade', cursive;
-
-}
-
 .subtitle {
   font-family: 'Anton', sans-serif;
 }
@@ -32,6 +27,10 @@ body {
   animation-duration: 650ms;
   animation-delay: 50ms;
 
+}
+
+.hero-body title {
+  font-family: 'Bungee Shade'
 }
 
 #wrapper:last-child {
