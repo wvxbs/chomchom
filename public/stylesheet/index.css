@@ -47,8 +47,8 @@ body {
 }
 
 #awrapper {
-  animation: Loaded;
-  animation-duration: 1s
+  animation: Index;
+  animation-duration: 600ms
 }
 
 .hero-body .title {
@@ -127,9 +127,4 @@ body {
     opacity: 0.0;
     transform: translateY(50%);
   }
-}
-
-@keyframes Loaded {
-  0% {opacity: 0.0;}
-
 }
