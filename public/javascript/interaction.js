@@ -2,10 +2,10 @@ function Increase (id, val, inc) {
     this.val = this.val + this.inc
     switch(this.id) {
         case 1:
-            var affinityw = document.getElementById.children
+            var affinityw = document.getElementById('')
 
             for (var i; affinityw.lenght; i++) {
-                if()
+                i
             }
         break
  
@@ -29,8 +29,6 @@ function State (state) {
     
 
 }
-
-
 
 $(document).ready( function() {
     var 
