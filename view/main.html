@@ -20,7 +20,7 @@
         <div class="box" id="affinity-box">
           <h1 class="title">Afinidade</h1>
           <div id="1">
-            <i class="fas fa-star "></i>
+            <i class="fas fa-star affinity-active"></i>
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -32,7 +32,7 @@
         <div class="box" id="health-box">
           <h1 class="title">Saúde</h1>
           <div id="2">
-            <i class="fas fa-heart"></i>
+            <i class="fas fa-heart health-active"></i>
             <i class="fas fa-heart"></i>
             <i class="fas fa-heart"></i>
             <i class="fas fa-heart"></i>
@@ -44,7 +44,7 @@
         <div class="box" id="happiness-box">
           <h1 class="title">Felicidade</h1>
           <div id="3">
-            <i class="fas fa-cannabis"></i>
+            <i class="fas fa-cannabis happiness-active"></i>
             <i class="fas fa-cannabis"></i>
             <i class="fas fa-cannabis"></i>
             <i class="fas fa-cannabis"></i>
@@ -56,10 +56,10 @@
         <div class="box" id="hunger-box">
           <h1 class="title">Fome</h1>
           <div id="4">
-            <i class="fas fa-fish"></i>
-            <i class="fas fa-fish"></i>
-            <i class="fas fa-fish"></i>
-            <i class="fas fa-fish"></i>
+            <i class="fas fa-fish hunger-active"></i>
+            <i class="fas fa-fish hunger-active"></i>
+            <i class="fas fa-fish hunger-active"></i>
+            <i class="fas fa-fish hunger-active"></i>
             <i class="fas fa-fish"></i>
           </div>
         </div>
@@ -72,7 +72,7 @@
           <h1 class="title">Alimentar</h1>
           <p class="subtitle">Selecione uma comida</p>
           <div class="inline-flex adriano">
-            <button class="button is-white" id="al-1"><i class="fas fa-bacon"></i></button>
+            <button class="button is-white" id="al-1" onclick="FoodClick()"><i class="fas fa-bacon"></i></button>
             <button class="button is-white" id="al-2"><i class="fas fa-bone"></i></button>
             <button class="button is-white" id="al-3"><i class="fas fa-cannabis"></i></button>
             <button class="button is-white" id="al-4"><i class="fas fa-cheese"></i></button>
@@ -118,7 +118,6 @@
       </div>
     </div>
   </section>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="../public/javascript/actions.js"></script>
   <script src="../public/javascript/form.js"></script>
   <script src="../public/javascript/interaction.js"></script>
