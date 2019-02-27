@@ -2,7 +2,7 @@ function Increase (id, inc) {
     switch(id) {
         case 1:
             var affinityw = document.getElementById('1')
-            var items = affinityw.getElementsByClassName('fas')
+            var items = affinityw.getElementsByClassName(1)
 
             for(var i; i < items.length; i++) {
                 if(items[i].className.includes('affinity-active')) {
@@ -33,7 +33,7 @@ function Increase (id, inc) {
 function Decrease (id, inc) {
     switch(id) {
         case 1:
-            var affinityw = document.getElementById('1')
+            var affinityw = document.getElementById('affinity-box')
             var items = affinityw.getElementsByTagName('i')
 
             for(var i; i < items.length; i++) {

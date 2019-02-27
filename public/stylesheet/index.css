@@ -101,11 +101,6 @@ body {
   hr{
     display: none
   }
-
-  #awrapper .box {
-    box-shadow:  0 3px 10px rgba(0, 0, 0, 0.075);
-    border-radius: 0px
-  }
 }
 
 #affinity-box {
