@@ -2,19 +2,13 @@ function Increase (id, inc) {
     switch(id) {
         case 1:
             var affinityw = document.getElementById('1')
-            var items = affinityw.getElementsByClassName(1)
+            var items = affinityw.getElementsByClassName('1')
 
             for(var i; i < items.length; i++) {
                 if(items[i].className.includes('affinity-active')) {
                     items[inc + i].className('affinity-active')
                 }
             } 
-        break
- 
-        case 2:
-        break
-
-        case 3:
         break
 
         case 4:
@@ -41,15 +35,6 @@ function Decrease (id, inc) {
                     items[inc - i].classList.remove('affinity-active')
                 }
             } 
-        break
- 
-        case 2:
-        break
-
-        case 3:
-        break
-
-        case 4:
         break
     }
 }

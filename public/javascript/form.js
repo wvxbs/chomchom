@@ -4,6 +4,6 @@ function addName() {
     
 }
 
-sessionStorage.setItem('name', name)
-document.getElementById('name-out').innerHTML = 'cuide do ' + name  +  '!'
+document.getElementById('name-out').innerHTML = 'Cuide do ' + name  +  '!'
+document.getElementById('type-out').innerHTML = 'O ' + type + ''
 
